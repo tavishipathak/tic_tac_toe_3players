@@ -4,13 +4,20 @@
 }
 
 body{
-    background-color: #AD7A99;
+    /*background-color: #AD7A99;*/
     text-align: center;
     margin-top: 5%;
+    background: url("./download\ \(4\).jpeg");
+    background-size:contain;
+}
+
+h1{
+    color: rgb(243, 202, 24);
+    font-size: 20vmin;
 }
 
 .container{
-    height: 180vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +29,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     gap: 1.5vmin;
 }
 
@@ -31,7 +38,7 @@ body{
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    box-shadow: 0 0 1rem rgba(243, 223, 10, 0.3);
     font-size: 8vmin;
     color: #FF729F;
     background-color: antiquewhite;
@@ -39,18 +46,18 @@ body{
 
 #reset-btn{
     padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #D9DCD6; 
-    color: #16425B;
+    font-size: 5rem;
+    background-color: white; 
+    color: yellow;
     border-radius: 1rem;
     border: none;
 }
 
 #new-btn{
     padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #D9DCD6; 
-    color: #16425B;
+    font-size: 4.5rem;
+    background-color:white ; 
+    color: #FCD581;
     border-radius: 1rem;
     border: none;
 }
