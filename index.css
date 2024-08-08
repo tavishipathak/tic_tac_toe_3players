@@ -1,6 +1,8 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -55,7 +57,7 @@ h1{
 
 #new-btn{
     padding: 1rem;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     background-color:white ; 
     color: #FCD581;
     border-radius: 1rem;
