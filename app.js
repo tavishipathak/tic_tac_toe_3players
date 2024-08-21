@@ -4,10 +4,10 @@ let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg");
 let msg = document.querySelector("#ms");
 
-let turnIndex = 0; // To track the current player (0: A, 1: B, 2: C)
-let count = 0; // To Track Draw
+let turnIndex = 0; // To track the current player (0: 😁, 1: 😎, 2: 😉)
+let count = 0; // To Track Draw 
 
-const players = ["A", "B", "C"]; // List of players
+const players = ["😁", "😎", "😉"]; // List of players
 const winPatterns = [
   [0, 1, 2, 3],
   [0, 4, 8, 12],
